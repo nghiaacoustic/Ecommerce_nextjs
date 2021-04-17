@@ -6,7 +6,13 @@
 }
 
 .products .card {
-    margin: 10px auto
+    margin: 10px auto;
+}
+
+.products .card:hover {
+    cursor: pointer;
+    transform: translateY(-7px);
+    transform: scale(1.05);
 }
 
 .products .card-img-top {
@@ -29,7 +35,7 @@
 
 /* Products Detail */
 
-.detail_page .img-thumbnail.active{
+.detail_page .img-thumbnail.active {
     border-color: orangered;
-    padding:2px
+    padding: 2px
 }

@@ -72,7 +72,7 @@ function Navbar() {
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
             <Link href="/">
-                <a className="navbar-brand">Devat</a>
+                <a className="navbar-brand"  style={{background: 'repeating-linear-gradient(35deg, crimson, transparent 175px)'}}>Shopping Store</a>
             </Link>
 
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
